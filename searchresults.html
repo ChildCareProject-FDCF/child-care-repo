@@ -12,7 +12,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/css/styles.css">
-    <title>Provider - HCPS Hunter's Green Elementary H.O.S.T</title>
+    <title>Childcare Search Results</title>
 </head>
 
 <body>
@@ -59,7 +59,7 @@
     <!-- Childcare Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark child-nav">
         <div class="container-fluid container">
-            <a class="navbar-brand childcare" href="index.html"><img src="/images/childcarelogo_resized.png" alt="" width="30" height="30"
+            <a class="navbar-brand childcare" href="#"><img src="/images/childcarelogo_resized.png" alt="" width="30" height="30"
                     class="d-inline-block align-center">Childcare</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,81 +77,63 @@
     <!-- Breadcrumb -->
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb container">
-            <li class="breadcrumb-item"><a class="clickable-link" href="#">Home</a></li>
-            <li class="breadcrumb-item"><a class="clickable-link" href="#">Childcare</a></li>
-            <li class="breadcrumb-item"><a class="clickable-link" href="#">Listing of all Childcare Providers</a></li>
-            <li class="breadcrumb-item active" aria-current="page">HCPS Hunter's Green Elementary H.O.S.T</li>
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Childcare</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Childcare Website Search</li>
         </ol>
     </nav>
-
-    <!-- Hero space - Lsting of all Childcare Providers -->
-    <div class="hero-space container-fluid position-relative" id="hunt-hero-image">
-        <div class="centered-hero-content container position-absolute top-50 start-50 translate-middle">
-            <h1>Listing of all Childcare Providers</h1>
-        </div>
-    </div>
-
 
     <div class="main-body container d-flex">
         <!-- Finding a Childcare Provider - Side navigation -->
         <nav class="sidenav nav flex-column col-3">
             <a class="nav-link" href="#">Online Provider Search</a>
-            <a class="nav-link selected" href="#">Listing of all Childcare Providers</a>
+            <a class="nav-link" href="#">Listing of all Childcare Providers</a>
             <a class="nav-link" href="#">Registered Providers</a>
             <a class="nav-link" href="#">Licensed Providers</a>
             <a class="nav-link" href="#">Licensing / Registration process and requirements for providers</a>
-            <a class="nav-link" href="#">Childcare Website Search</a>
+            <a class="nav-link selected" href="#">Childcare Website Search</a>
         </nav>
 
-        <div class="hunt content offset-md-1 col-7">
-            <h1>HCPS Hunter's Green Elementary H.O.S.T</h1>
+        <div class="content offset-md-1 col-7">
+            <h1>Childcare Website Search</h1>
 
-            <p><b>Description: </b>HCPS HUNTER'S GREEN ELEM H.O.S.T. is a Child Care Facility in Tampa FL, with a maximum capacity of 11 children. The provider also participates in a subsidized child care program.</p>
-
-            <!-- Additional Details under description -->
-            <div class="additional-details d-flex justify-content-around">
-                <div class="distance">
-                    <p><b>Distance</b></p>
-                    <p>0.5 miles</p>
-                </div>
-
-                <div class="program">
-                    <p><b>Program</b></p>
-                    <p>Elementary school</p>
-                </div>
-
-                <div class="Services">
-                    <p><b>Services</b></p>
-                    <p>Food Provided<br>
-                        Infant Care
-                    </p>
-                </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="HCPS Hunter's Green Elementary H.O.S.T"
+                    aria-label="Search" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Find Provider</button>
             </div>
 
-            <br>
+            <!-- Search Results -->
+            <p>SHOWING 1 RESULT</p>
 
-            <!-- Contact and Location -->
-            <div class="additional-details d-flex justify-content-between">
-                <div class="phone">
-                    <p><b>Phone</b><br>(813) 973-7394</p>
-                </div>
+            <hr>
 
-                <div class="address">
-                    <p><b>Address</b><br>Child Care Facility<br>
-                        9202 Highland Oak Dr, Tampa FL, 33647</p>
-                </div>
+            <div class="search-result">
+                <p>HCPS Hunter's Green Elementary H.O.S.T - Child Care near Tampa, FL</p>
+                <p>www.myflfamilies.com > child-care > providers >HCPS Hunter's Green Elementary H.O.S.T</p>
             </div>
 
-            <!-- Map -->
-            <img class="col-12" src="/images/Map1.png" alt="Location of Hunter's Green">
+            <!-- Alternate search options -->
+            <p>Not the provider you were looking for? See other providers near "HCPS Hunter's Green Elementary H.O.S.T":</p>
 
-            <div class="provider-website d-grid col-8 mx-auto">
-                <a href="https://www.hillsboroughschools.org/huntersgreen" target="_blank" class="btn btn-outline-success" role="button">Visit HCPS Hunter's Green Elementary H.O.S.T's Website Here!</a>
+            <div class="alter-options d-flex row">
+                <div class="search-result">
+                    <p>Provider A - Child Care near Tampa, FL</p>
+                    <p>www.myflfamilies.com > child-care > providers > Provider A</p>
+                </div>
+
+                <div class="search-result">
+                    <p>Provider B - Child Care near Tampa, FL</p>
+                    <p>www.myflfamilies.com > child-care > providers > Provider B</p>
+                </div>
+
+                <div class="search-result">
+                    <p>Provider C - Child Care near Tampa, FL</p>
+                    <p>www.myflfamilies.com > child-care > providers > Provider C</p>
+                </div>
             </div>
 
         </div>
-
-    </div>
 
 </body>
 
