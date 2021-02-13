@@ -1,0 +1,176 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Voces&display=swap'); /* Use font-family: 'Voces', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap'); /* Use font-family: 'Source Sans Pro', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap'); /* Use font-family: 'Calistoga', cursive; */
+
+
+/* Childcare Navigation */
+.global-links {
+    font-family: 'Voces', cursive;
+    color: #4E4E4E;
+}
+
+.active {
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25em
+}
+
+.child-nav {
+    margin-top: 1em;
+    background-color: #136078;
+}
+
+.child-nav img {
+    margin-right: 0.625em;
+}
+
+.form-control {
+    border-radius: 0px;
+    border: 1px solid gray;
+}
+
+.childcare {
+    font-family: 'Calistoga', cursive;
+    text-transform: uppercase;
+}
+
+.childcare-links {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    margin-left: 2.5em;
+}
+
+.childcare-links a:first-child{
+    margin-right: 2em;
+}
+
+.btn-outline-success {
+    color: white;
+    background-color: #2C5F70;
+    border-radius: 0;
+    border: #2C5F70;
+}
+
+.btn-outline-success:hover {
+    background-color: white;
+    border: #2C5F70;
+    color: #2C5F70;
+
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+}
+
+.clickable-link {
+    color: #166D88;
+    text-decoration: underline;
+}
+
+/* Side navigation */
+.main-body .col-3 {
+    width: 23.5%;
+}
+
+.sidenav a {
+    border: 1px solid white;
+    color: white;
+    background-color: #605841;
+}
+
+/* Hero image */
+.hero-space {
+    height: 35em;
+    margin-bottom: 10em;
+}
+
+.hero-space h1 {
+    color: white;
+}
+
+.centered-hero-content {
+    text-align: center;
+    width: 50%;
+}
+
+.centered-hero-content h1 {
+    font-family: 'Calistoga', cursive;
+    margin-bottom: 1em;
+}
+
+
+
+
+/* ******* Childcare Home Page ******* */
+/* For Families and For Childcare Provider Cards */
+.card {
+    border: none;
+}
+
+.card img {
+    margin-bottom: 2em;
+}
+
+.card h4 {
+    font-family: 'Calistoga', cursive;
+    margin-bottom: 1.75em;
+}
+
+.card p {
+    margin-bottom: 30px;
+}
+
+.card a {
+    color: #034ECF;
+    text-decoration: none;
+}
+
+.for-fam-prov-cards {
+    margin-bottom: 8.25em;
+}
+
+#home-hero-image {
+    background-image: url(/images/herohome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* ******* Hunter's Green Provider Page ******* */
+.hunt h1 {
+    margin-bottom: 1em;
+}
+
+.space-under {
+    margin-bottom: 0.5em;
+}
+
+.hunt img {
+    margin: 1em auto 2.5em auto;
+}
+
+.hunt button {
+    margin-bottom: 9em;
+}
+
+#hunt-hero-image {
+    background-image: url(/images/hero3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
