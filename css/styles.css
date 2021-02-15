@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap'); /* Use font-family: 'Source Sans Pro', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap'); /* Use font-family: 'Calistoga', cursive; */
 
+/* Styling cursor */
+.cursor {
+    cursor: url("/images/custompointer.png");
+}
 
 /* Childcare Navigation */
 .global-links {
@@ -52,14 +56,17 @@ p {
     color: white;
     background-color: #2C5F70;
     border-radius: 0;
-    border: #2C5F70;
+    border: 1px solid #2C5F70;
 }
 
 .btn-outline-success:hover {
     background-color: white;
-    border: #2C5F70;
+    border: 1px solid #2C5F70;
     color: #2C5F70;
+}
 
+.btn-outline-success:focus {
+    outline: 5px solid #4b92aa;
 }
 
 /* Breadcrumbs */
@@ -69,7 +76,7 @@ p {
 }
 
 .clickable-link {
-    color: #166D88;
+    color: #136078;
     text-decoration: underline;
 }
 
@@ -98,6 +105,7 @@ p {
 .hero-space {
     height: 35em;
     margin-bottom: 10em;
+    cursor: url("/images/custompointer.png"), pointer;
 }
 
 .hero-space h1 {
@@ -137,8 +145,12 @@ p {
 }
 
 .card a {
-    color: #034ECF;
+    color: #136078;
     text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
 }
 
 .for-fam-prov-cards {
@@ -193,15 +205,15 @@ p {
     margin-bottom: 20em;
 }
 
-#childcareFooter{
-    background-color: orange;
-}
-
 .link {
     color: #034ECF;
     font-weight: 700;
     margin-bottom: 0px;
     text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
 
 .alter-options {
@@ -210,50 +222,78 @@ p {
 
 
 /* Style all font awesome icons */
+
 .fa {
     padding: 10px;
-    font-size: 30px;
+    margin-right: 15%;
+    transform: scale(2, 2);
     width: 10px;
-    text-align: center;
-    text-decoration:white;
-  }
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
-  /* Set a specific color for each brand */
-  /* Facebook */
-  .fa-facebook {
-    color: white;
-  }
-  /* Instagram */
-  .fa-instagram {
-    color: white;
-  }
-  /* YouTube */
-  .fa-youtube {
-    color: white;
-  }
-  /* Twitter */
-  .fa-twitter {
-   color: white;
-  }
+    text-decoration: none;
+    color:white;
+}
+
+.fa:hover {
+    color: #FEB95F;
+    background-color: white;
+    border-radius: 100%;
+}
+/* Add a hover effect if you want */
+/* .fa:hover {
+opacity: 0.7;
+} */
+/* Set a specific color for each brand */
+/* Facebook */
+/* .fa-facebook {
+color: white;
+} */
+/* Instagram */
+/* .fa-instagram {
+color: white;
+} */
+/* YouTube */
+/* .fa-youtube {
+color: white;
+} */
+/* Twitter */
+/* .fa-twitter {
+color: white;
+} */
+/* Copyright Symbol */
+.fa-copyright {
+margin-right: 2px;
+display: inline;
+transform: scale(0.8, 0.8);
+color: black;
+}
 
 
-  /* ******* Footer ******* */
-  #childcareFooter {
-      padding-top: 3em;
-  }
+/* ******* Footer ******* */
+#childcareFooter {
+    padding-top: 3em;
+}
 
-  #childcareFooter small {
-    color: #090446;
-  }
+#childcareFooter small {
+color: #090446;
+}
 
-  .footer-headline {
-      font-weight: 700;
-  }
+.footer-headline {
+    font-weight: 700;
+}
 
-  .footer-link {
-      color: black;
-      text-decoration: none;
-  }
+.footer-link {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+#childcareFooter{
+background-color: #FEB95F;
+}
+
+.copyright {
+    text-align: right;
+}
